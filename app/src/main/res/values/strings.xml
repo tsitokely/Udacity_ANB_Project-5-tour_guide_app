@@ -30,8 +30,8 @@
     <string name="shell_gare_routiere">Shell Gare Routière</string>
 
     <!-- Locations address -->
-    <string name="rn2_bis">Madagascar, Toamasina, Route National N°2</string>
-    <string name="rn5">Madagascar, Toamasina, Route National N°5</string>
+    <string name="rn2_bis">Madagascar, Toamasina, Route Nationale N°2</string>
+    <string name="rn5">Madagascar, Toamasina, Route Nationale N°5</string>
     <string name="av_indep">Madagascar, Toamasina, Avenue de l\'indépendance</string>
     <string name="bd_augagneur">Madagascar, Toamasina, Boulevard Augagneur</string>
     <string name="bd_joffre">Madagascar, Toamasina, Boulevard Joffre</string>
