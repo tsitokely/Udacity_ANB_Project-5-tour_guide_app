@@ -14,11 +14,25 @@
     <string name="bfv">Société Générale</string>
     <string name="boa">Bank of Africa</string>
     <string name="bmoi">Banque malgache de l\'Océan Indien</string>
+    <string name="la_braise">La Braise</string>
+    <string name="la_braise_cote_cour">La Braise Coté Cour</string>
+    <string name="urban_grill">Urban Grill</string>
+    <string name="orchidee">Soupe Chinoise Orchidée</string>
+    <string name="fortuna_ex">Fortuna Express</string>
+    <string name="eccm">Expression Culturelle de la CAPOEIRA à Madagascar</string>
+    <string name="east_academy">East Academy</string>
+    <string name="barbell_501">Barbell 501</string>
+    <string name="wellness_fit">Wellness Fit</string>
 
     <!-- Locations address -->
-    <string name="av_indep">Madagascar, Toamasina, Avenue de l\'indépendance,</string>
-    <string name="tanambao_v">Madagascar, Toamasina, Tanambao 5,</string>
-    <string name="bd_augagneur">Madagascar, Toamasina, Boulevard Augagneur,</string>
-    <string name="bd_joffre">Madagascar, Toamasina, Boulevard Joffre,</string>
-    <string name="rue_commerce">Madagascar, Toamasina, Rue du Commerce,</string>
+    <string name="av_indep">Madagascar, Toamasina, Avenue de l\'indépendance</string>
+    <string name="bd_augagneur">Madagascar, Toamasina, Boulevard Augagneur</string>
+    <string name="bd_joffre">Madagascar, Toamasina, Boulevard Joffre</string>
+    <string name="bd_ratsimilaho">Madagascar, Toamasina, Boulevard Ratsimilaho</string>
+    <string name="bd_andovoranto">Madagascar, Toamasina, Boulevard d\'Andovoranto</string>
+    <string name="bd_liberte">Madagascar, Toamasina, Boulevard de la liberté</string>
+    <string name="rue_commerce">Madagascar, Toamasina, Rue du Commerce</string>
+    <string name="rue_bertho">Madagascar, Toamasina, Rue Bertho</string>
+    <string name="rue_tassigny">Madagascar, Toamasina, Rue Marechal De lattre de Tassigny</string>
+    <string name="rue_batterie">Madagascar, Toamasina, Rue la batterie</string>
 </resources>

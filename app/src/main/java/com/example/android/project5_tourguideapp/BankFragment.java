@@ -23,7 +23,7 @@ public class BankFragment extends Fragment {
         final ArrayList<LocationTour> bank = new ArrayList<>();
         bank.add(new LocationTour(getString(R.string.bfv), getString(R.string.av_indep),
                 R.drawable.bfv_av_indep));
-        bank.add(new LocationTour(getString(R.string.bfv), getString(R.string.tanambao_v),
+        bank.add(new LocationTour(getString(R.string.bfv), getString(R.string.bd_andovoranto),
                 R.drawable.bfv_tanambao_5));
         bank.add(new LocationTour(getString(R.string.boa), getString(R.string.bd_augagneur),
                 R.drawable.boa_bd_augagneur));
