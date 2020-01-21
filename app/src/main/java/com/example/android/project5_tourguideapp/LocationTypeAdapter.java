@@ -1,17 +1,20 @@
 package com.example.android.project5_tourguideapp;
 
+import android.content.Context;
+
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 public class LocationTypeAdapter extends FragmentPagerAdapter {
+    Context context;
+
     // Specify the number of pages
     final int PAGE_COUNT = 4;
-    // Declare the name of each location type
-    private String titles[] = new String[]{"Bank", "Food", "Gym", "Gasoline"};
 
-    public LocationTypeAdapter(FragmentManager fm, MainActivity mainActivity) {
+    public LocationTypeAdapter(FragmentManager fm, Context nContext) {
         super(fm);
+        context = nContext;
     }
 
     // Our implementation of getItem
@@ -34,10 +37,20 @@ public class LocationTypeAdapter extends FragmentPagerAdapter {
         return PAGE_COUNT;
     }
 
+    // Generate title based on item position
     @Override
     public CharSequence getPageTitle(int position) {
-        // Generate title based on item position
-        return titles[position];
+        switch (position) {
+            case 0:
+                return context.getString(R.string.bank);
+            case 1:
+                return context.getString(R.string.food);
+            case 2:
+                return context.getString(R.string.gym);
+            case 3:
+                return context.getString(R.string.gas);
+        }
+        return null;
     }
 
 

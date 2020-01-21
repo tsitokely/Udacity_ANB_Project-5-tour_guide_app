@@ -31,7 +31,7 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/location"
             android:textStyle="bold"
-            tools:text="location_name" />
+            tools:text="@string/loc_name" />
 
         <TextView
             android:id="@+id/location_address"
@@ -41,7 +41,7 @@
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/location"
-            tools:text="location_address" />
+            tools:text="@string/loc_addr" />
     </RelativeLayout>
 
 </RelativeLayout>
