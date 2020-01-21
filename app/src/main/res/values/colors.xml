@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FF612E</color>
-    <color name="colorPrimaryDark">#BD2D02</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#969292</color>
+    <color name="colorPrimaryDark">#585555</color>
+    <color name="colorAccent">#7E371A</color>
     <color name="icon_back">#969493</color>
-    <color name="location_text">#D81B60</color>
+    <color name="location_text">#FFFFFF</color>
     <color name="tabTextColor">#A8A19E</color>
     <color name="white">#FFFFFF</color>
-    <color name="bank_location">#4CAF50</color>
+    <color name="bank_location">#8BC34A</color>
     <color name="Food_location">#F44336</color>
     <color name="Gym_location">#FFC107</color>
     <color name="Gasoline_location">#2196F3</color>
