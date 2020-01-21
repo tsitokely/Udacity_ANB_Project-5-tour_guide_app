@@ -16,18 +16,20 @@
         android:layout_height="@dimen/list_item_height"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@id/image"
+        android:layout_toEndOf="@id/image"
+        android:paddingStart="16dp"
         android:paddingLeft="16dp">
 
         <TextView
             android:id="@+id/location_name"
             android:layout_width="match_parent"
             android:layout_height="44dp"
-            android:layout_weight="1"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/location_text"
+            android:textColor="@color/location"
             android:textStyle="bold"
             tools:text="location_name" />
 
@@ -36,10 +38,9 @@
             android:layout_width="match_parent"
             android:layout_height="44dp"
             android:layout_below="@id/location_name"
-            android:layout_weight="1"
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/location_text"
+            android:textColor="@color/location"
             tools:text="location_address" />
     </RelativeLayout>
 
