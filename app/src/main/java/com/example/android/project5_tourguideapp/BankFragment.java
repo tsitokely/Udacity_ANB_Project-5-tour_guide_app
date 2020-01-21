@@ -21,17 +21,17 @@ public class BankFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
         final ArrayList<LocationTour> bank = new ArrayList<>();
-        bank.add(new LocationTour("BFV-SG", "Av. Independence",
+        bank.add(new LocationTour(getString(R.string.bfv), getString(R.string.av_indep),
                 R.drawable.bfv_av_indep));
-        bank.add(new LocationTour("BFV-SG", "Tanambao V",
+        bank.add(new LocationTour(getString(R.string.bfv), getString(R.string.tanambao_v),
                 R.drawable.bfv_tanambao_5));
-        bank.add(new LocationTour("B.O.A", "Bd. Augagneur",
+        bank.add(new LocationTour(getString(R.string.boa), getString(R.string.bd_augagneur),
                 R.drawable.boa_bd_augagneur));
-        bank.add(new LocationTour("B.O.A", "Rue du Commerce",
+        bank.add(new LocationTour(getString(R.string.boa), getString(R.string.rue_commerce),
                 R.drawable.boa_rue_commerce));
-        bank.add(new LocationTour("B.M.O.I", "Bd. Joffre",
+        bank.add(new LocationTour(getString(R.string.bmoi), getString(R.string.bd_joffre),
                 R.drawable.bmoi_bd_joffre));
-        bank.add(new LocationTour("B.M.O.I", "Bd. Augagneur",
+        bank.add(new LocationTour(getString(R.string.bmoi), getString(R.string.bd_augagneur),
                 R.drawable.bmoi_bd_augagneur));
         LocationAdapter itemsAdapter = new LocationAdapter(getActivity(), bank,
                 R.color.bank_location);

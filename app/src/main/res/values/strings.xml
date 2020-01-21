@@ -1,9 +1,24 @@
 <resources>
+    <!-- General text -->
     <string name="app_name">Project 5 - Tour Guide App</string>
     <string name="loc_name">location_name</string>
     <string name="loc_addr">location_address</string>
+
+    <!-- Titles on the application -->
     <string name="bank">bank</string>
     <string name="food">food</string>
     <string name="gym">gym</string>
     <string name="gas">gasoline</string>
+
+    <!-- Locations name -->
+    <string name="bfv">Société Générale</string>
+    <string name="boa">Bank of Africa</string>
+    <string name="bmoi">Banque malgache de l\'Océan Indien</string>
+
+    <!-- Locations address -->
+    <string name="av_indep">Madagascar, Toamasina, Avenue de l\'indépendance,</string>
+    <string name="tanambao_v">Madagascar, Toamasina, Tanambao 5,</string>
+    <string name="bd_augagneur">Madagascar, Toamasina, Boulevard Augagneur,</string>
+    <string name="bd_joffre">Madagascar, Toamasina, Boulevard Joffre,</string>
+    <string name="rue_commerce">Madagascar, Toamasina, Rue du Commerce,</string>
 </resources>
