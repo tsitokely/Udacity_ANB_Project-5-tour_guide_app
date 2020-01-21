@@ -23,8 +23,15 @@
     <string name="east_academy">East Academy</string>
     <string name="barbell_501">Barbell 501</string>
     <string name="wellness_fit">Wellness Fit</string>
+    <string name="total_plessis">Total Villa Plessis</string>
+    <string name="total_vatsy">Total Vatsy</string>
+    <string name="jovenna_jacaranda">Jovenna Jacaranda</string>
+    <string name="shell_pangalana">Shell Pangalanat</string>
+    <string name="shell_gare_routiere">Shell Gare Routière</string>
 
     <!-- Locations address -->
+    <string name="rn2_bis">Madagascar, Toamasina, Route National N°2</string>
+    <string name="rn5">Madagascar, Toamasina, Route National N°5</string>
     <string name="av_indep">Madagascar, Toamasina, Avenue de l\'indépendance</string>
     <string name="bd_augagneur">Madagascar, Toamasina, Boulevard Augagneur</string>
     <string name="bd_joffre">Madagascar, Toamasina, Boulevard Joffre</string>
